@@ -1,0 +1,184 @@
+$purple: #7400B8;
+$violet: #6930C3;
+$slateBlue: #5E60CE;
+$tuftsBlue: #5390D9;
+$blueJeans: #4EA8DE;
+$skyBlue: #48BFE3;
+$skyBlueCrayola: #56CFE1;
+$medTurquoise: #64DFDF;
+$Turquoise: #72EFDD;
+$aquamarine: #80FFDB;
+$light: #D6FFF3;
+$white: #EBFFF9;
+$black: #0D0014;
+html, body {
+	/*background-color: $purple;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: $black;
+	@media screen and (min-width: 1200px){
+		font-size: 12px;
+	}
+	@media screen and (min-width: 1440px){
+		font-size: 16px;
+	}
+
+}
+
+.color-black {
+	color: $black !important;
+}
+
+.color-light {
+	color: $light !important;
+}
+
+.color-white {
+	color: $white !important;
+}
+
+#left {
+	background-color: $white;
+	padding-left: 10%;
+	padding-right: 6rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	@media screen and (max-width: 1200px){
+		padding-left: 10%;
+		padding-right: calc(10% - 30px);
+	}
+}
+
+
+
+#right {
+	background-color: $black;
+	color: $white;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	@media screen and (max-width: 1200px){
+		margin-top: 0;
+		padding-left: 10%;
+		padding-right: calc(10% - 30px);
+	}
+}
+
+.right-content {
+	padding-top: 5%;
+}
+
+.title {
+	font-family: 'Monoton', cursive;
+	font-size: 3rem;
+	font-weight: normal;
+	@media screen and (min-width: 960px) {
+		font-size: 3rem;
+	}
+}
+.lead {
+  margin-bottom: 10rem;
+	@media screen and (max-width: 1280px){
+		width: 100%;
+	}
+}
+
+.about-card {
+	margin-bottom: 4rem;
+}
+
+.about-1 {
+	color: $light;
+	padding: 0;
+	background-color: $violet;
+}
+
+.about-1 .uk-article {
+	padding: 2rem;
+	color: $light;
+}
+
+.about-1-header {
+	background-color: $blueJeans;
+	border-bottom: none !important;
+	padding: 1rem;
+}
+
+.about-2 {
+	color: $light;
+	padding: 0;
+	background-color: $violet;
+}
+
+.about-2 .uk-article {
+	padding: 2rem;
+	color: $light;
+}
+
+.about-2-header {
+	background-color: $blueJeans;
+	border-bottom: none !important;
+	padding: 1rem;
+}
+
+dt {
+  color: $blueJeans !important;
+}
+input, textarea {
+  background: $white;
+}
+input, textarea:focus {
+  background:  $white !important;
+}
+form input {
+  width: 350px;
+  height: 2rem;
+}
+form textarea {
+  width: 350px;
+  min-height: 250px;
+}
+form label {
+  display: block;
+}
+input.button {
+  width: 356px;
+  margin: 0;
+  border: none;
+  overflow: visible;
+  font: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-transform: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 30px;
+  padding-bottom: 36px;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .1s ease-in-out;
+  transition-property: all;
+  transition-property: color,background-color,border-color;
+  color: #222;
+  border: 1px solid #e5e5e5;
+  background-color: $aquamarine !important;
+}
+input.button:hover {
+  background-color: $blueJeans !important;
+}
+.field {
+  margin-bottom: 2rem;
+}
+.submit {
+  margin-top: -1rem;
+}
+.uk-legend {
+  display: block;
+  margin-bottom: 1rem;
+}
